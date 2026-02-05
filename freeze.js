@@ -5,6 +5,7 @@ const employes={
     designatin:"Officer"
 }
 
+
 Object.seal(employes)
 employes.salary=employes.salary+4000
 employes.experiance=2
@@ -17,3 +18,6 @@ const values=Object.values(employes)
 console.log(`Values are ${values}`)
 const entries=Object.entries(employes)
 console.log(`Entries are: ${entries}`)
+let a=12,b=3;
+[a,b]=[b,a]
+console.log(`swap the value: `,a,b)
